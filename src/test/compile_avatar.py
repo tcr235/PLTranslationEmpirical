@@ -343,7 +343,7 @@ def main(args):
                 compile_failed.append(files[i])
 
     else:
-        print("language:{} is not yet supported. select from the following languages[Python,Java,C++,C,Go]".format(args.target_lang))
+        print("language:{} is not yet supported. select from the following languages[Python,Java]".format(args.target_lang))
         return
 
     test_failed = list(set(test_failed))

@@ -366,7 +366,7 @@ def main(args):
                     compile_failed.append((files[i], e.stderr.decode()))
 
     else:
-        print("language:{} is not yet supported. select from the following languages[Python,Java,C++,C,Go]".format(args.target_lang))
+        print("language:{} is not yet supported. select from the following languages[Python,Java]".format(args.target_lang))
         return
 
     json_fp = Path(args.report_dir).joinpath(f"{args.model}_avatar_errors_from_{args.source_lang}_to_{args.target_lang}_{args.attempt}.json")

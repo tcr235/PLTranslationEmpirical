@@ -218,7 +218,7 @@ def main(args):
                 os.remove(wd + "/" + files[i].split(".")[0])
 
     else:
-        print("language:{} is not yet supported. select from the following languages[Python,Java,C,C++,Go]".format(args.target_lang))
+        print("language:{} is not yet supported. select from the following languages[Python,Java]".format(args.target_lang))
         return
 
     attempt = args.attempt
