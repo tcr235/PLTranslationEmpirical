@@ -1,0 +1,8 @@
+n = int(input())
+m = int(input())
+po = []
+for _ in range(n):
+    po.append(int(input()))
+    m -= po[-1]
+po.sort()
+print(n + m // po[0])

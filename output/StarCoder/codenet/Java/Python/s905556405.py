@@ -1,0 +1,8 @@
+numlist = []
+for _ in range(5):
+    numlist.append(int(input()))
+k = int(input())
+if (numlist[-1] - numlist[0]) > k:
+    print(":/")
+else:
+    print("Yay!")
