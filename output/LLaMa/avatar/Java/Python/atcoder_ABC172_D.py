@@ -1,0 +1,11 @@
+import sys
+
+def atcoder_ABC172_D():
+    n = int(sys.stdin.readline().strip())
+    ans = 0
+    for i in range(1, n + 1):
+        ans += (i * (n // i)) * (((n // i) + 1) // 2)
+    print(ans)
+
+if __name__ == "__main__":
+    atcoder_ABC172_D()
