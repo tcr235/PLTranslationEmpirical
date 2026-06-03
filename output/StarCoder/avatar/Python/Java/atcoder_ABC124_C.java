@@ -1,0 +1,24 @@
+import java.util.HashMap;
+import java.util.Map;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String input = scanner.next();
+        Map<Character, Integer> even = new HashMap<>();
+        Map<Character, Integer> odd = new HashMap<>();
+
+        for (int i = 0; i < input.length(); i += 2) {
+            even.put(input.charAt(i), even.getOrDefault(input.charAt(i), 0) + 1);
+        }
+
+        for (int i = 1; i < input.length(); i += 2) {
+            odd.put(input.charAt(i), odd.getOrDefault(input.charAt(i), 0) + 1);
+        }
+
+        int result = Math.min(input.length() - (even.getOrDefault('0', 0) + odd.getOrDefault('1', 0)), 
+                               input.length() - (even.getOrDefault('1', 0) + odd.getOrDefault('0', 0)));
+
+        System.out.println(result);
+    }
+}
