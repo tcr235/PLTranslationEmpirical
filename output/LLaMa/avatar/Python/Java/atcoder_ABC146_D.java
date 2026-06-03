@@ -2,7 +2,7 @@
 import java.util.*;
 import java.io.*;
 
-public class Main {
+public class atcoder_ABC146_D {
     static class FastReader {
         BufferedReader br;
         StringTokenizer st;

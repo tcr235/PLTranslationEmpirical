@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
-public class Main {
+public class atcoder_ABC089_C {
 
     static final long MOD = (long) (1e9 + 7);
     static final long INF = (long) (1e18);

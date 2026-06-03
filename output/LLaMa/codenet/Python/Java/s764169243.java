@@ -1,7 +1,7 @@
 ```java
 import java.util.*;
 
-public class Main {
+public class s764169243 {
     static class SegmentTree {
         int size, defaultVal;
         long[] seg;

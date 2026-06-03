@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+public class s664563518 {
     private static final long MOD = 1000000007;
     private static boolean showFlg = false;
 

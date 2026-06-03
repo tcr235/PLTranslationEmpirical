@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+public class atcoder_ABC110_C {
     public static String run(String s, String t) {
         Map<Integer, Integer> sCount = new HashMap<>();
         Map<Integer, Integer> tCount = new HashMap<>();

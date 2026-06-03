@@ -1,7 +1,7 @@
 ```java
 import java.util.Scanner;
 
-public class Main {
+public class atcoder_AGC028_B {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int N = Integer.parseInt(scanner.nextLine());

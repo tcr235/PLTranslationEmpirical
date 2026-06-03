@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class Main {
+public class atcoder_AGC011_C {
     static ArrayList<ArrayList<Integer>> g = new ArrayList<>();
     static int n, m;
     static int[] vis = new int[10001];

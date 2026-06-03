@@ -5,7 +5,7 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.util.StringTokenizer;
 
-public class Main {
+public class atcoder_AGC028_B {
 	static final int MOD = (int) (1e9 + 7);
 
 	public static void main(String[] args) throws IOException {

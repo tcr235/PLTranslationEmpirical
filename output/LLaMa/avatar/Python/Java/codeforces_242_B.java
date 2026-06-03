@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class Main {
+public class codeforces_242_B {
     static BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
     static StringTokenizer tokenizer = new StringTokenizer("");
 

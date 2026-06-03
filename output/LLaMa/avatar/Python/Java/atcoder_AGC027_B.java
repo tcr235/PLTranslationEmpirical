@@ -3,7 +3,7 @@ import java.io.FileNotFoundException;
 import java.util.Scanner;
 import java.util.stream.IntStream;
 
-public class Main {
+public class atcoder_AGC027_B {
     public static void main(String[] args) throws FileNotFoundException {
         Scanner scanner = new Scanner(new File("input.txt"));
         int N = scanner.nextInt();

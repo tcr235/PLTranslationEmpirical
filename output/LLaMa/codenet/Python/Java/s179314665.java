@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class s179314665 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter two numbers separated by space: ");

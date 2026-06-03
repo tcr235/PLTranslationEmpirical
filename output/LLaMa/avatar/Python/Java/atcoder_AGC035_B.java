@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-public class Main {
+public class atcoder_AGC035_B {
     static int N, M;
     static ArrayList<ArrayList<Integer>> edges;
     static int[] degs;

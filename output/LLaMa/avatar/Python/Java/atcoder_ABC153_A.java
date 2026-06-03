@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class atcoder_ABC153_A {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter h and a separated by space: ");

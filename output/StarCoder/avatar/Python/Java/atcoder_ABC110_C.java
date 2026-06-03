@@ -2,7 +2,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Main {
+public class atcoder_ABC110_C {
     public static void main(String[] args) {
         java.util.Scanner scanner = new java.util.Scanner(System.in);
         String s = scanner.nextLine();

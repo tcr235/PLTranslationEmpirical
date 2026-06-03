@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class s486032847 {
     public static int keta(String s) {
         if (s.length() < 2) {
             return Integer.parseInt(s);

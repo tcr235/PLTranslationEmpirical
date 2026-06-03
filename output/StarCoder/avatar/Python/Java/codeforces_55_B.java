@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class codeforces_55_B {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String[] numsArr = scanner.nextLine().split(" ");

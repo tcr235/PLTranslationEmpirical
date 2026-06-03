@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.HashSet;
 
-public class Main {
+public class s131946120 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int n = Integer.parseInt(scanner.nextLine());

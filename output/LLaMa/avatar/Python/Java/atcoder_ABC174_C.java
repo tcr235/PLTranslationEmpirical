@@ -4,7 +4,7 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.util.StringTokenizer;
 
-public class Main {
+public class atcoder_ABC174_C {
     public static void main(String[] args) throws IOException {
         FastReader s = new FastReader();
         PrintWriter out = new PrintWriter(System.out);

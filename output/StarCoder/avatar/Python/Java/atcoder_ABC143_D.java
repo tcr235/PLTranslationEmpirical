@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+public class atcoder_ABC143_D {
     public static void main(String[] args) throws Exception {
         Scanner sc = new Scanner(System.in);
         ArrayList<Integer> al = new ArrayList<>();

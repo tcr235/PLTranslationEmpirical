@@ -1,5 +1,5 @@
 import java.util.*;
-public class Main {
+public class atcoder_ABC089_C {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int N = scanner.nextInt();

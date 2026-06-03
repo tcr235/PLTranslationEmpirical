@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class atcoder_AGC046_B {
     static final int MOD = 998244353;
 
     public static void main(String[] args) {

@@ -5,7 +5,7 @@ import java.io.PrintWriter;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
-public class Main {
+public class s681105182 {
 
     static final int INF = 1000000000;
     static final long MOD = (long)1e9 + 7;

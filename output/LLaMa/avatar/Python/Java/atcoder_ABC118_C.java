@@ -2,7 +2,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 import java.math.BigInteger;
 
-public class Main {
+public class atcoder_ABC118_C {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int N = scanner.nextInt();

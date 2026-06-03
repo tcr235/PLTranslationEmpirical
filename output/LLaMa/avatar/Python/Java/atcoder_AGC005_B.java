@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+public class atcoder_AGC005_B {
     static int[] par, rank, size;
     static int[] b;
 

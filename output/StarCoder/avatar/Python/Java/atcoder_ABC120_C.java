@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-public class Main {
+public class atcoder_ABC120_C {
     static final long INF = Long.MAX_VALUE / 2;
     static final int MOD = 1000000007;
     static BufferedReader br;

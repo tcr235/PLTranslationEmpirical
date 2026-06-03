@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+public class atcoder_ABC169_E {
     public static void main(String[] args) {
         resolve();
     }

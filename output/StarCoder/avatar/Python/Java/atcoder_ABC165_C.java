@@ -2,7 +2,7 @@ import java.util.Scanner;
 import java.io.OutputStream;
 import java.io.PrintWriter;
 
-public class Main {
+public class atcoder_ABC165_C {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         PrintWriter writer = new PrintWriter(System.out);

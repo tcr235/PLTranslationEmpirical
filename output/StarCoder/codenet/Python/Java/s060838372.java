@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class s060838372 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String[] input = scanner.nextLine().split(" ");

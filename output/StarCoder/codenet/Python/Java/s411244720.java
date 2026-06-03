@@ -1,7 +1,7 @@
 import java.util.HashSet;
 import java.util.Scanner;
 
-public class Main {
+public class s411244720 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         HashSet<Integer> set = new HashSet<>();

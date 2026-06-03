@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+public class atcoder_ABC126_D {
     static class Node {
         int val;
         boolean color;

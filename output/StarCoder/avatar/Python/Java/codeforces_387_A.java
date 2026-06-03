@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class codeforces_387_A {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String[] parts1 = scanner.next().split(":");

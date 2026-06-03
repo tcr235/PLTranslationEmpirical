@@ -1,5 +1,5 @@
 import java.util.*;
-public class Main {
+public class atcoder_ABC070_B {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String[] strValues = scanner.nextLine().split(" ");

@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.Arrays;
 
-public class Main {
+public class codeforces_651_A {
     public static int num_inp(Scanner scanner) {
         return Integer.parseInt(scanner.nextLine());
     }

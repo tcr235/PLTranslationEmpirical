@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class atcoder_ABC168_B {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int K = scanner.nextInt();

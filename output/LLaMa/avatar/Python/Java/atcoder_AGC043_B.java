@@ -1,7 +1,7 @@
 import java.util.*;
 import java.util.function.Function;
 
-public class Main {
+public class atcoder_AGC043_B {
 
     public static int twosInFactorial(int n) {
         String binary = Integer.toBinaryString(n);

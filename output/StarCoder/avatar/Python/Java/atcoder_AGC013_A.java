@@ -1,5 +1,5 @@
 import java.util.*;
-public class Main {
+public class atcoder_AGC013_A {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         long N = scanner.nextLong();

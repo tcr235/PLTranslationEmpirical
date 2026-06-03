@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class s615966179 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter three integers separated by space: ");

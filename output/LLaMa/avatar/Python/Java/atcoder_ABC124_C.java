@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.Map;
 
-public class Main {
+public class atcoder_ABC124_C {
     public static void main(String[] args) {
         String s = new String(readLine()).trim();
         Map<Character, Integer> even = new HashMap<>();

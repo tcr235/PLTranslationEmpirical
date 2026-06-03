@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class Main {
+public class s344468705 {
 
     public static class FastReader {
         BufferedReader br;

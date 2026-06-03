@@ -2,7 +2,7 @@
 import java.util.*;
 import java.io.*;
 
-public class Main {
+public class s908812767 {
     private static final int N = 200005;
     private static Map<Integer, List<int[]>> adj;
     private static int[] color;

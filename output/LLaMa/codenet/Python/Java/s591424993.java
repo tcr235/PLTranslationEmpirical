@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
-public class Main {
+public class s591424993 {
     static int readInt() throws IOException {
         int ans = 0;
         boolean isNegative = false;

@@ -2,7 +2,7 @@
 import java.util.*;
 import java.io.*;
 
-public class Main {
+public class atcoder_ABC167_C {
     static int n, m, x;
     static int[][] c;
     static int[] pre;

@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+public class atcoder_AGC014_D {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int N = scanner.nextInt();

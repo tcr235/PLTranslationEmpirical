@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+public class codeforces_7_B {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String[] parts = scanner.nextLine().split(" ");

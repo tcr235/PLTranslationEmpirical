@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+public class codeforces_287_A {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         List<List<String>> t = new ArrayList<>();

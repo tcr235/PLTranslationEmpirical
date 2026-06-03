@@ -5,7 +5,7 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.util.*;
 
-public class Main {
+public class atcoder_AGC004_D {
     static class FastReader {
         BufferedReader br;
         StringTokenizer st;

@@ -3,7 +3,7 @@ import java.util.*;
 import java.io.*;
 import java.math.*;
 
-public class Main {
+public class s977408144 {
     static BufferedReader br;
     static PrintWriter pw;
     static String[] input;

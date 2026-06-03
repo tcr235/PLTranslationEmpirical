@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class atcoder_AGC046_B {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String[] inputs = scanner.nextLine().split(" ");

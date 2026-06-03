@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Main {
+public class codeforces_459_B {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         

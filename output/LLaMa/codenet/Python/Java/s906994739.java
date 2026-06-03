@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class Main {
+public class s906994739 {
     static long n, F[][], P[][], max = Long.MIN_VALUE;
 
     static void input() throws IOException {

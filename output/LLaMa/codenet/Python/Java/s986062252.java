@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.lang.Math;
 
-public class Main {
+public class s986062252 {
     public static int gcdd(int a, int b) {
         return b == 0 ? a : gcdd(b, a % b);
     }

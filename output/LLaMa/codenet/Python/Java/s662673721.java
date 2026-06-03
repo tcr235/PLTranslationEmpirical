@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.StreamTokenizer;
 
-public class Main {
+public class s662673721 {
     static StreamTokenizer in;
 
     static void init() throws IOException {

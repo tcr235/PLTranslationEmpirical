@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+public class codeforces_327_A {
     public static int[] find(String s, char ch) {
         List<Integer> indices = new ArrayList<>();
         for (int i = 0; i < s.length(); i++) {

@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+public class codeforces_644_B {
     static class Task {
         int time;
         int duration;

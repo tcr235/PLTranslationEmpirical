@@ -18,7 +18,7 @@ class Task implements Comparable<Task> {
     }
 }
 
-public class Main {
+public class codeforces_644_B {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String[] input = scanner.nextLine().split(" ");

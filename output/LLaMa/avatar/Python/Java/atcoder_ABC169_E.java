@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Main {
+public class atcoder_ABC169_E {
     public static void resolve() {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();

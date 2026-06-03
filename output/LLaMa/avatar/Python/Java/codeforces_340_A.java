@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class codeforces_340_A {
     public static int G(int a, int b) {
         while (a % b != 0) {
             int temp = b;

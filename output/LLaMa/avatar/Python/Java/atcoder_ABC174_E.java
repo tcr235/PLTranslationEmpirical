@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class atcoder_ABC174_E {
     public static boolean check(int[] lis, int k, int mid) {
         int count = 0;
         for (int i : lis) {

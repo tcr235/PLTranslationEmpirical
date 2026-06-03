@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+public class codeforces_55_B {
     public static void rememberTheNumber(int[] nums, int i, String[] operations, long[] ans) {
         if (i >= 3) {
             return;

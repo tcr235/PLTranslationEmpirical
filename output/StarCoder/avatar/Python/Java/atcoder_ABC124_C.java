@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.Map;
 
-public class Main {
+public class atcoder_ABC124_C {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String input = scanner.next();

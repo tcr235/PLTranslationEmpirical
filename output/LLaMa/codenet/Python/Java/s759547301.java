@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class s759547301 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the weather condition (Sunny/Cloudy/Rainy): ");

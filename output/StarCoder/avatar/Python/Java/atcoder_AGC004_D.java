@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Main {
+public class atcoder_AGC004_D {
     static List<Integer>[] links;
     static int k, ans;
 

@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+public class atcoder_ABC140_F {
     public static void main(String[] args) throws Exception {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         int N = Integer.parseInt(reader.readLine());

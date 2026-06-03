@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+public class s170274782 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int N = Integer.parseInt(scanner.nextLine());
