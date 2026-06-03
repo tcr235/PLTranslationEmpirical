@@ -1,0 +1,31 @@
+import java.util.*;
+
+public class Main {
+    public static String run(String s, String t) {
+        Map<Integer, Integer> sCount = new HashMap<>();
+        Map<Integer, Integer> tCount = new HashMap<>();
+
+        for (char c : s.toCharArray()) {
+            sCount.put(c, sCount.getOrDefault(c, 0) + 1);
+        }
+
+        for (char c : t.toCharArray()) {
+            tCount.put(c, tCount.getOrDefault(c, 0) + 1);
+        }
+
+        List<Integer> ss = new ArrayList<>(sCount.values());
+        List<Integer> tt = new ArrayList<>(tCount.values());
+
+        Collections.sort(ss);
+        Collections.sort(tt);
+
+        return ss.equals(tt) ? "Yes" : "No";
+    }
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String s = scanner.nextLine();
+        String t = scanner.nextLine();
+        System.out.println(run(s, t));
+    }
+}

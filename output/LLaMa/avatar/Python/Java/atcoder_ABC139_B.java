@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter two numbers separated by a space:");
+        String input = scanner.nextLine();
+        String[] numbers = input.split(" ");
+        int a = Integer.parseInt(numbers[0]);
+        int b = Integer.parseInt(numbers[1]);
+
+        int hole = 1;
+        int i = 0;
+        boolean check = true;
+        while (check) {
+            if (hole >= b) {
+                check = false;
+            } else {
+                hole = a * (i + 1) - i;
+                i += 1;
+            }
+        }
+        System.out.println(i);
+    }
+}

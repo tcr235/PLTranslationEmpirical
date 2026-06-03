@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String[] input = scanner.nextLine().split(" ");
+        int l = Integer.parseInt(input[0]);
+        int r = Integer.parseInt(input[1]);
+        int curr = r;
+        int s = 0;
+        while (curr != 0) {
+            s++;
+            curr /= 10;
+        }
+        int first = (int) Math.pow(10, s);
+        int second = first / 2;
+        int ans = -1;
+        for (int i : new int[]{l, r, first, second}) {
+            if (i >= l && i <= r) {
+                int num = i;
+                String rev = "";
+                while (num != 0) {
+                    char c = (char) (48 + 9 - (num % 10));
+                    rev = c + rev;
+                    num /= 10;
+                }
+                ans = Math.max(ans, Integer.parseInt(rev) * i);
+            }
+        }
+        System.out.println(ans);
+    }
+}

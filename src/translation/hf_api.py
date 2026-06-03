@@ -64,7 +64,7 @@ def generate(model_name: str, prompt: str, max_new_tokens: int = 512) -> str:
         except Exception as exc:
             err = str(exc)
             is_rate_limit = "429" in err or "rate limit" in err.lower()
-            is_server_err = any(code in err for code in ("500", "503", "502"))
+            is_server_err = any(code in err for code in ("500", "502", "503", "504"))
 
             if is_rate_limit:
                 logger.warning(
