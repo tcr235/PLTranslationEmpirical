@@ -1,0 +1,25 @@
+Total Instances: 100
+
+Total Correct: 70
+Total Runtime Failed: 7
+Total Compilation Failed: 14
+Total Test Failed: 9
+Total Infinite Loop: 0
+
+Accuracy: 70.0
+Runtime Rate: 7.000000000000001
+Compilation Rate: 14.000000000000002
+Test Failed Rate: 9.0
+Infinite Loop Rate: 0.0
+
+=================================================================================================
+Failed Test Files: ['s878873709.java', 's735480710.java', 's622795537.java', 's214672212.java', 's790754864.java', 's013976107.java', 's668439281.java', 's846046431.java', 's592421258.java'] 
+Failed Test Details: ['Filename: s214672212.java Actual: 53\n Generated: 125\n', 'Filename: s790754864.java Actual: 3\n6\n1\n Generated: 12\n6\n1\n', 'Filename: s668439281.java Actual: beet\nvet\n Generated: ', 'Filename: s622795537.java Actual: beet\nvet\n Generated: b\nv\n', 'Filename: s592421258.java Actual: Yes\n Generated: No\n', 'Filename: s878873709.java Actual: 4\n Generated: 1\n', 'Filename: s013976107.java Actual: Yes\n Generated: No\n', 'Filename: s735480710.java Actual: 4 2 1 3\n Generated: \n', 'Filename: s846046431.java Actual: Yes\n Generated: No\n'] 
+=================================================================================================
+Runtime Error Files: ['s273727373.java', 's704354119.java', 's591424993.java', 's759499751.java', 's957164965.java', 's344468705.java', 's238775098.java'] 
+Runtime Error Details: ['Filename: s344468705.java Error_type: Exception in thread "main" java.util.NoSuchElementException\n\tat java.base/java.util.Scanner.throwFor(Scanner.java:937)\n\tat java.base/java.util.Scanner.next(Scanner.java:1594)\n\tat java.base/java.util.Scanner.nextInt(Scanner.java:2258)\n\tat java.base/java.util.Scanner.nextInt(Scanner.java:2212)\n\tat s344468705.solve(s344468705.java:18)\n\tat s344468705.main(s344468705.java:9)\n', 'Filename: s591424993.java Error_type: Exception in thread "main" java.util.NoSuchElementException\n\tat java.base/java.util.HashMap$HashIterator.nextNode(HashMap.java:1599)\n\tat java.base/java.util.HashMap$KeyIterator.next(HashMap.java:1620)\n\tat java.base/java.util.Collections.max(Collections.java:674)\n\tat s591424993.main(s591424993.java:26)\n', 'Filename: s704354119.java Error_type: Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1\n\tat s704354119.main(s704354119.java:9)\n', 'Filename: s273727373.java Error_type: Exception in thread "main" java.lang.NullPointerException\n\tat java.base/java.util.Objects.requireNonNull(Objects.java:209)\n\tat java.base/java.util.ImmutableCollections.listFromArray(ImmutableCollections.java:190)\n\tat java.base/java.util.List.of(List.java:1047)\n\tat s273727373.main(s273727373.java:14)\n', 'Filename: s238775098.java Error_type: Exception in thread "main" java.util.NoSuchElementException: No line found\n\tat java.base/java.util.Scanner.nextLine(Scanner.java:1651)\n\tat s238775098.main(s238775098.java:10)\n', 'Filename: s759499751.java Error_type: Exception in thread "main" java.lang.IllegalStateException: Scanner closed\n\tat java.base/java.util.Scanner.ensureOpen(Scanner.java:1150)\n\tat java.base/java.util.Scanner.next(Scanner.java:1573)\n\tat java.base/java.util.Scanner.nextInt(Scanner.java:2258)\n\tat java.base/java.util.Scanner.nextInt(Scanner.java:2212)\n\tat s759499751.main(s759499751.java:22)\n', 'Filename: s957164965.java Error_type: Exception in thread "main" java.lang.NumberFormatException: For input string: "4 7 10 6 5"\n\tat java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)\n\tat java.base/java.lang.Integer.parseInt(Integer.java:668)\n\tat java.base/java.lang.Integer.parseInt(Integer.java:786)\n\tat s957164965.main(s957164965.java:11)\n'] 
+=================================================================================================
+Compilation Error Files: ['s908812767.java', 's534639230.java', 's747093551.java', 's797394058.java', 's906994739.java', 's828550015.java', 's764169243.java', 's087080706.java', 's804484425.java', 's315467749.java', 's101447419.java', 's681105182.java', 's441329208.java', 's951065247.java'] 
+=================================================================================================
+Infinite Loop Files: [] 
+=================================================================================================

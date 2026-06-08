@@ -1,0 +1,66 @@
+0,Runtime Error
+1,Fixed
+0,Runtime Error
+1,Fixed
+0,Runtime Error
+0,Compilation Error
+0,Runtime Error
+0,Runtime Error
+0,Runtime Error
+1,Fixed
+0,Runtime Error
+0,Runtime Error
+0,Runtime Error
+0,Runtime Error
+1,Fixed
+0,Runtime Error
+0,Wrong Output
+0,Wrong Output
+1,Fixed
+0,Runtime Error
+1,Fixed
+1,Fixed
+0,Wrong Output
+1,Fixed
+0,Runtime Error
+1,Fixed
+1,Fixed
+0,Runtime Error
+1,Fixed
+1,Fixed
+0,Runtime Error
+0,Runtime Error
+0,Wrong Output
+0,Wrong Output
+0,Runtime Error
+0,Runtime Error
+0,Runtime Error
+0,Runtime Error
+1,Fixed
+0,Runtime Error
+0,Runtime Error
+0,Runtime Error
+0,Compilation Error
+0,Runtime Error
+0,Runtime Error
+0,Runtime Error
+0,Runtime Error
+0,Runtime Error
+0,Runtime Error
+0,Compilation Error
+0,Wrong Output
+0,Wrong Output
+0,Wrong Output
+0,Runtime Error
+0,Wrong Output
+1,Fixed
+0,Compilation Error
+0,Wrong Output
+0,Wrong Output
+1,Fixed
+0,Wrong Output
+0,Wrong Output
+0,Wrong Output
+1,Fixed
+0,Wrong Output
+0,Wrong Output
