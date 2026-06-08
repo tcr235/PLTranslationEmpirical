@@ -1,0 +1,5 @@
+a = input().split()
+a = list(map(int, a))
+a.insert(1, a.pop(0))
+a.sort(reverse = True)
+print(*a)

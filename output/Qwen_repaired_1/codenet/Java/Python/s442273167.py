@@ -1,0 +1,5 @@
+n = int(input())
+l = list(map(int, input().split()))
+r = list(map(int, input().split()))
+sum_values = sum(r[i] - l[i] + 1 for i in range(n))
+print(sum_values)

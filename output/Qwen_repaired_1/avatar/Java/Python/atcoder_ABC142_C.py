@@ -1,0 +1,1 @@
+N = int(input()) idorder = {} for i in range(1, N + 1): A = input().strip() idorder[int(A)] = i for i in range(1, N + 1): print(idorder[i], end=" ")

@@ -1,0 +1,19 @@
+import java.util.Scanner;
+import java.lang.Math;
+
+public class s538657784 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int N = scanner.nextInt();
+        scanner.close();
+
+        int sqN = (int)Math.sqrt(N);
+
+        for (int i = 0; i <= sqN; i++) {
+            if (N % (sqN - i) == 0) {
+                System.out.println(N / (sqN - i) + sqN - i - 2);
+                break;
+            }
+        }
+    }
+}
