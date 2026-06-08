@@ -90,7 +90,7 @@ def build_repair_prompt(
             f"{target} Code:\n"
         )
 
-    if model == 'StarCoder':
+    if model == 'Qwen':
         content = f"<fim_prefix>{content}<fim_suffix><fim_middle>"
 
     return content
@@ -112,7 +112,7 @@ class Repair:
         self.out_dir = (
             Path(self.main_dir)
             / 'output'
-            / f'{self.args.model}_IO_{self.args.attempt}'
+            / f'{self.args.model}_repaired_{self.args.attempt}'
             / self.args.dataset
         )
         self.out_dir.mkdir(parents=True, exist_ok=True)

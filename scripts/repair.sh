@@ -5,7 +5,7 @@ export PYTHONIOENCODING=utf-8;
 function prompt() {
     echo;
     echo "Syntax: bash scripts/repair.sh MODEL DATASET SRC_LANG TRG_LANG ATTEMPT ERROR_TYPE [MAX_NEW_TOKENS]";
-    echo "MODEL:          LLaMa or StarCoder";
+    echo "MODEL:          LLaMa or Qwen";
     echo "DATASET:        codenet or avatar";
     echo "SRC_LANG:       source language (Python or Java)";
     echo "TRG_LANG:       target language (Python or Java)";
@@ -33,7 +33,7 @@ ATTEMPT=$5;
 ERROR_TYPE=$6;
 MAX_NEW_TOKENS=${7:-512};
 
-if [[ $MODEL == "StarCoder" || $MODEL == "LLaMa" ]]; then
+if [[ $MODEL == "Qwen" || $MODEL == "LLaMa" ]]; then
   python3 src/translation/repair.py \
     --model $MODEL \
     --dataset $DATASET \
@@ -43,5 +43,5 @@ if [[ $MODEL == "StarCoder" || $MODEL == "LLaMa" ]]; then
     --error_type $ERROR_TYPE \
     --max_new_tokens $MAX_NEW_TOKENS;
 else
-  echo "Model not supported. Use: StarCoder or LLaMa";
+  echo "Model not supported. Use: Qwen or LLaMa";
 fi

@@ -9,7 +9,8 @@ from pathlib import Path
 def main(args):
     print('exporting reports')    
     dataset = 'avatar'
-    translation_dir = f"output/{args.model}/{dataset}/{args.source_lang}/{args.target_lang}"
+    model_dir = args.model if args.attempt == 1 else f"{args.model}_repaired_{args.attempt - 1}"
+    translation_dir = f"output/{model_dir}/{dataset}/{args.source_lang}/{args.target_lang}"
     test_dir = f"dataset/{dataset}/{args.source_lang}/TestCases"
     files = [f for f in os.listdir(translation_dir) if f != '.DS_Store']
 

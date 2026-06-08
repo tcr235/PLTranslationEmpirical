@@ -19,13 +19,13 @@ INTER_REQUEST_DELAY = 8  # seconds
 # but both were removed from the HF serverless API.
 # These are their closest current equivalents available on the free tier.
 MODEL_IDS = {
-    "LLaMa":     "meta-llama/Llama-3.1-8B-Instruct",
-    "StarCoder":  "Qwen/Qwen2.5-Coder-7B-Instruct",
+    "LLaMa": "meta-llama/Llama-3.1-8B-Instruct",
+    "Qwen":  "Qwen/Qwen2.5-Coder-7B-Instruct",
 }
 
 AUTH_TOKENS = {
-    "LLaMa":     "LLAMA2_AUTH_TOKEN",
-    "StarCoder":  "STARCODER_AUTH_TOKEN",
+    "LLaMa": "LLAMA2_AUTH_TOKEN",
+    "Qwen":  "QWEN_AUTH_TOKEN",
 }
 
 

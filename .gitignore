@@ -163,3 +163,7 @@ cython_debug/
 dataset/
 CodeGeeX/
 huggingface/
+
+# temporary debug/run logs
+log.txt
+output.txt
