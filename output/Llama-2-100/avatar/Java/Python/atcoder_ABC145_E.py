@@ -1,0 +1,2 @@
+def atcoder_ABC145_E(N, T): Scanner = input Scanner = input(N) Scanner = input(T) AB = [[0] * (N+1) for _ in range(2)] for i in range(N): AB[i] = [int(input()), int(input())] Arrays.sort(AB, key=lambda x: x[0]) dp = [[0] * (6001) for _ in range(N+1)] for i in range(N): for timeAfterEat in range(0, 6000): dp[i][timeAfterEat] = max(dp[i][timeAfterEat], dp[i-1][timeAfterEat-AB[i-1][0]] + AB[i-1][1]) print(max(dp[N]))
+

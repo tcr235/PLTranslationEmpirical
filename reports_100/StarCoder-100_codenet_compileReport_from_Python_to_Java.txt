@@ -1,0 +1,25 @@
+Total Instances: 100
+
+Total Correct: 56
+Total Runtime Failed: 6
+Total Compilation Failed: 25
+Total Test Failed: 13
+Total Infinite Loop: 0
+
+Accuracy: 56.00000000000001
+Runtime Rate: 6.0
+Compilation Rate: 25.0
+Test Failed Rate: 13.0
+Infinite Loop Rate: 0.0
+
+=================================================================================================
+Failed Test Files: ['s013976107.java', 's101447419.java', 's964794058.java', 's790754864.java', 's752993784.java', 's592421258.java', 's534639230.java', 's251858505.java', 's804484425.java', 's344468705.java', 's957164965.java', 's441329208.java', 's043545989.java'] 
+Failed Test Details: ['Filename: s964794058.java Actual: 2 2\n Generated: 4 4\n', 'Filename: s101447419.java Actual: 1\n Generated: -1\n', 'Filename: s752993784.java Actual: 3\n Generated: 1\n', 'Filename: s957164965.java Actual: 8\n Generated: 6\n', 'Filename: s592421258.java Actual: Yes\n Generated: No\n', 'Filename: s534639230.java Actual: 2\n Generated: 0\n', 'Filename: s441329208.java Actual: Yes\n Generated: No\n', 'Filename: s804484425.java Actual: 26\n Generated: 38\n', 'Filename: s790754864.java Actual: 3\n6\n1\n Generated: 5832\n', 'Filename: s013976107.java Actual: Yes\n Generated: No\n', 'Filename: s251858505.java Actual: 2\n Generated: 0\n', 'Filename: s344468705.java Actual: 2\n Generated: -2\n-1\n-4\n-5\n-3\n', 'Filename: s043545989.java Actual: Yes\n Generated: No\n'] 
+=================================================================================================
+Runtime Error Files: ['s238775098.java', 's591424993.java', 's735480710.java', 's759499751.java', 's828550015.java', 's087080706.java'] 
+Runtime Error Details: ['Filename: s735480710.java Error_type: Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1\n\tat s735480710.main(s735480710.java:11)\n', 'Filename: s759499751.java Error_type: Exception in thread "main" java.util.NoSuchElementException\n\tat java.base/java.util.Scanner.throwFor(Scanner.java:937)\n\tat java.base/java.util.Scanner.next(Scanner.java:1478)\n\tat s759499751.main(s759499751.java:10)\n', 'Filename: s087080706.java Error_type: Exception in thread "main" java.util.NoSuchElementException\n\tat java.base/java.util.Scanner.throwFor(Scanner.java:937)\n\tat java.base/java.util.Scanner.next(Scanner.java:1594)\n\tat java.base/java.util.Scanner.nextInt(Scanner.java:2258)\n\tat java.base/java.util.Scanner.nextInt(Scanner.java:2212)\n\tat s087080706.main(s087080706.java:9)\n', 'Filename: s238775098.java Error_type: Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1\n\tat s238775098.main(s238775098.java:10)\n', 'Filename: s828550015.java Error_type: Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1\n\tat s828550015.main(s828550015.java:31)\n', 'Filename: s591424993.java Error_type: Exception in thread "main" java.util.NoSuchElementException\n\tat java.base/java.util.HashMap$HashIterator.nextNode(HashMap.java:1599)\n\tat java.base/java.util.HashMap$KeyIterator.next(HashMap.java:1620)\n\tat java.base/java.util.Collections.max(Collections.java:674)\n\tat s591424993.main(s591424993.java:29)\n'] 
+=================================================================================================
+Compilation Error Files: ['s817205687.java', 's896397037.java', 's747093551.java', 's759547301.java', 's205112814.java', 's052231578.java', 's142939923.java', 's662673721.java', 's951065247.java', 's538657784.java', 's210889193.java', 's702834515.java', 's269975433.java', 's764169243.java', 's636592395.java', 's039768540.java', 's616346400.java', 's681105182.java', 's031459110.java', 's170274782.java', 's908812767.java', 's761121328.java', 's031917494.java', 's539244923.java', 's214672212.java'] 
+=================================================================================================
+Infinite Loop Files: [] 
+=================================================================================================

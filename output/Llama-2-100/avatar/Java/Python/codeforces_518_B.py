@@ -1,0 +1,2 @@
+def reverse(ch): if ch.islower(): return ch.upper() else: return ch.lower() def main(): scan = input() s = StringBuilder(scan) t = input() ura = 0 opa = 0 map = {} for i in range(len(t)): ch = t[i] if ch not in map: map[ch] = 1 else: map[ch] += 1 for j in range(len(s)): ch = s[j] if ch in map: map[ch] -= 1 if map[ch] == 1: map.pop(ch) s[j] = 'Я' ura += 1 for j in range(len(s)): ch = s[j] rch = reverse(ch) if rch in map: map[rch] -= 1 if map[rch] == 1: map.pop(rch) opa += 1 print(ura, opa)
+

@@ -1,0 +1,2 @@
+def codeforces_581_B ( n ): # n = int ( input ( ) ) a = [ long ( input ( ) ) for _ in range ( n ) ] dp = [ - 1 for _ in range ( n + 1 ) ] dp [ n - 1 ] = a [ n - 1 ] for i in range ( n - 1 , -1 , -1 ) : dp [ i ] = max ( dp [ i + 1 ] , a [ i ] ) for i in range ( n ) : if a [ i ] > dp [ i + 1 ] : print ( 0 , " " ) else : print ( ( dp [ i + 1 ] - a [ i ] + 1 ) , " " ) print () def debug ( *obj ): print ( ", ".join ( map ( str , obj ) ) ) n = int ( input ( ) ) codeforces_581_B ( n )
+

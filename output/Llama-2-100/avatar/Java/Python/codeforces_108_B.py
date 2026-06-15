@@ -1,0 +1,2 @@
+def codeforces_108_B ( n ): Scanner = input ( ) def main ( ): n = int ( input ( ) ) a = [ int ( input ( ) ) for _ in range ( n ) ] Arrays.sort ( a ) for i in range ( n - 1 ): if a [ i + 1 ] < a [ i ] * 2 and a [ i ] != a [ i + 1 ] : print ( "YES" ) return def main ( ): n = int ( input ( ) ) a = [ int ( input ( ) ) for _ in range ( n ) ] Arrays.sort ( a ) for i in range ( n - 1 ): if a [ i + 1 ] < a [ i ] * 2 and a [ i ] != a [ i + 1 ] : print ( "YES" ) return
+

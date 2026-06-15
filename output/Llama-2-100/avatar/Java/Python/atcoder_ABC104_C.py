@@ -1,0 +1,2 @@
+def atcoder_ABC104_C(D, G): # D is the number of digits in the number, G is the goal value int p = [0] * D int c = [0] * D for i in range(D): p.append(input()) c.append(input()) for bit in range(1 << D): # loop through all possible bit combinations score = 0 solve_num = 0 for i in range(D): if (bit & (1 << i)): score += 100 * (i + 1) * p[i] + c[i] solve_num += p[i] if score >= G: break loop for i in range(D - 1, -1, -1): if not (bit & (1 << i)): for j in range(p[i] - 1): score += 100 * (i + 1) solve_num += 1 if score >= G: break loop min = min(solve_num, score) print(min)
+

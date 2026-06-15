@@ -1,0 +1,25 @@
+Total Instances: 30
+
+Total Correct: 8
+Total Runtime Failed: 6
+Total Compilation Failed: 12
+Total Test Failed: 4
+Total Infinite Loop: 0
+
+Accuracy: 26.666666666666668
+Runtime Rate: 20.0
+Compilation Rate: 40.0
+Test Failed Rate: 13.333333333333334
+Infinite Loop Rate: 0.0
+
+=================================================================================================
+Failed Test Files: ['s592421258.java', 's878873709.java', 's681105182.java', 's735480710.java'] 
+Failed Test Details: ['Filename: s592421258.java Actual: Yes\n Generated: No\n', 'Filename: s878873709.java Actual: 4\n Generated: 1\n', 'Filename: s681105182.java Actual: 11 6\n Generated: 11 4\n', 'Filename: s735480710.java Actual: 4 2 1 3\n Generated: 4 2\n'] 
+=================================================================================================
+Runtime Error Files: ['s238775098.java', 's591424993.java', 's273727373.java', 's957164965.java', 's790754864.java', 's214672212.java'] 
+Runtime Error Details: ['Filename: s790754864.java Error_type: Error: Could not find or load main class s790754864\nCaused by: java.lang.ClassNotFoundException: s790754864\n', 'Filename: s957164965.java Error_type: Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 2 out of bounds for length 2\n\tat s957164965.main(s957164965.java:9)\n', 'Filename: s238775098.java Error_type: Exception in thread "main" java.util.NoSuchElementException: No line found\n\tat java.base/java.util.Scanner.nextLine(Scanner.java:1651)\n\tat s238775098.main(s238775098.java:10)\n', 'Filename: s591424993.java Error_type: Exception in thread "main" java.util.NoSuchElementException\n\tat java.base/java.util.HashMap$HashIterator.nextNode(HashMap.java:1599)\n\tat java.base/java.util.HashMap$KeyIterator.next(HashMap.java:1620)\n\tat java.base/java.util.Collections.max(Collections.java:674)\n\tat s591424993.main(s591424993.java:26)\n', 'Filename: s273727373.java Error_type: Exception in thread "main" java.lang.IndexOutOfBoundsException: Index: 1, Size: 0\n\tat java.base/java.util.ArrayList.rangeCheckForAdd(ArrayList.java:756)\n\tat java.base/java.util.ArrayList.add(ArrayList.java:481)\n\tat s273727373.main(s273727373.java:17)\n', 'Filename: s214672212.java Error_type: Error: Could not find or load main class s214672212\nCaused by: java.lang.ClassNotFoundException: s214672212\n'] 
+=================================================================================================
+Compilation Error Files: ['s764169243.java', 's804484425.java', 's668439281.java', 's908812767.java', 's087080706.java', 's951065247.java', 's797394058.java', 's846046431.java', 's828550015.java', 's747093551.java', 's441329208.java', 's101447419.java'] 
+=================================================================================================
+Infinite Loop Files: [] 
+=================================================================================================

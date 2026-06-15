@@ -1,0 +1,25 @@
+Total Instances: 100
+
+Total Correct: 6
+Total Runtime Failed: 7
+Total Compilation Failed: 86
+Total Test Failed: 1
+Total Infinite Loop: 0
+
+Accuracy: 6.0
+Runtime Rate: 7.000000000000001
+Compilation Rate: 86.0
+Test Failed Rate: 1.0
+Infinite Loop Rate: 0.0
+
+=================================================================================================
+Failed Test Files: ['s537584449.java'] 
+Failed Test Details: ['Filename: s537584449.java Actual: 6\n Generated: 51\n'] 
+=================================================================================================
+Runtime Error Files: ['s704354119.java', 's797394058.java', 's752993784.java', 's986062252.java', 's664563518.java', 's827462150.java', 's702834515.java'] 
+Runtime Error Details: ['Filename: s986062252.java Error_type: Exception in thread "main" java.lang.StringIndexOutOfBoundsException: String index out of range: 0\n\tat java.base/java.lang.StringLatin1.charAt(StringLatin1.java:48)\n\tat java.base/java.lang.String.charAt(String.java:1517)\n\tat s986062252.main(s986062252.java:14)\n', 'Filename: s827462150.java Error_type: Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0\n\tat s827462150.main(s827462150.java:6)\n', 'Filename: s704354119.java Error_type: Exception in thread "main" java.lang.NumberFormatException: For input string: ""\n\tat java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)\n\tat java.base/java.lang.Integer.parseInt(Integer.java:678)\n\tat java.base/java.lang.Integer.parseInt(Integer.java:786)\n\tat s704354119.main(s704354119.java:11)\n', 'Filename: s702834515.java Error_type: Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0\n\tat s702834515.main(s702834515.java:3)\n', 'Filename: s752993784.java Error_type: Exception in thread "main" java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 1\n\tat java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)\n\tat java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)\n\tat java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)\n\tat java.base/java.util.Objects.checkIndex(Objects.java:361)\n\tat java.base/java.util.ArrayList.get(ArrayList.java:427)\n\tat s752993784.main(s752993784.java:26)\n', 'Filename: s664563518.java Error_type: Exception in thread "main" java.lang.NumberFormatException: For input string: "dwango"\n\tat java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)\n\tat java.base/java.lang.Integer.parseInt(Integer.java:668)\n\tat java.base/java.lang.Integer.parseInt(Integer.java:786)\n\tat s664563518.main(s664563518.java:15)\n', 'Filename: s797394058.java Error_type: Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0\n\tat s797394058.main(s797394058.java:8)\n'] 
+=================================================================================================
+Compilation Error Files: ['s893778513.java', 's764356857.java', 's315467749.java', 's267172486.java', 's101447419.java', 's813548165.java', 's462546732.java', 's344468705.java', 's238775098.java', 's636592395.java', 's441329208.java', 's735480710.java', 's131946120.java', 's269975433.java', 's451465602.java', 's039768540.java', 's607161467.java', 's817205687.java', 's957164965.java', 's896397037.java', 's353603279.java', 's246930871.java', 's454986054.java', 's060838372.java', 's486032847.java', 's142939923.java', 's423256012.java', 's828550015.java', 's191853417.java', 's052231578.java', 's964794058.java', 's538657784.java', 's759547301.java', 's592421258.java', 's747093551.java', 's814885508.java', 's764169243.java', 's214672212.java', 's031917494.java', 's007458552.java', 's615966179.java', 's846046431.java', 's031459110.java', 's170274782.java', 's906994739.java', 's182651529.java', 's273727373.java', 's534639230.java', 's790754864.java', 's666154520.java', 's210889193.java', 's681170949.java', 's759499751.java', 's804484425.java', 's662673721.java', 's777789287.java', 's557080041.java', 's280552889.java', 's681105182.java', 's616346400.java', 's539244923.java', 's908812767.java', 's770408311.java', 's977408144.java', 's167793578.java', 's878873709.java', 's058944700.java', 's768331281.java', 's951065247.java', 's870744379.java', 's000375264.java', 's652791025.java', 's043545989.java', 's251858505.java', 's040517919.java', 's622795537.java', 's591424993.java', 's195311365.java', 's179314665.java', 's724326345.java', 's668439281.java', 's001486412.java', 's087080706.java', 's205112814.java', 's763097776.java', 's013976107.java'] 
+=================================================================================================
+Infinite Loop Files: [] 
+=================================================================================================

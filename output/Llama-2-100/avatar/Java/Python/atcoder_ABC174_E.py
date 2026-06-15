@@ -1,0 +1,4 @@
+def atcoder_ABC174_E( *args ): Solution = Solution() Solution.solve( *args )
+
+class Solution: def solve( self, *args ): int n = self.nextInt() int k = self.nextInt() logsLength = self.readArray( n ) min = 1 max = ( int ) 1e9 + 1000 while min < max: mid = ( min + max ) // 2 if self.nei( mid, logsLength, k ): max = mid else: min = mid + 1 out.println( min ) def nei( self, mid, logsLength, k ): for log in logsLength: k -= ( log + mid - 1 ) // mid - 1 return k >= 0 class InputReader: def __init__( self, stream ): self.reader = BufferedReader( stream ) self.tokenizer = None def next( self ): while self.tokenizer is None or not self.tokenizer.hasMoreTokens(): try: self.tokenizer = StringTokenizer( self.reader.readLine() ) except IOException: raise RuntimeException def nextInt( self ): return int( self.next() ) def readArray( self, n ): a = [ int( x ) for x in self.next( n ) ] return a
+

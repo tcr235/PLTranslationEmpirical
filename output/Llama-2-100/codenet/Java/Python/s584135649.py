@@ -1,0 +1,16 @@
+import input
+
+def main():
+
+i=0
+
+for i in range(1,6):
+
+n = input.nextInt()
+
+if n==0:
+
+break
+
+print(i)
+

@@ -1,0 +1,2 @@
+def codeforces_56_B (): Scanner = input () len = int ( Scanner . next () ) a = [ int ( Scanner . next ()) for _ in range ( len ) ] l = 0 r = 0 flag = False isTrue = False for i in range ( len ): if a [ i ] != i + 1 and not flag : l = i + 1 flag = True continue for if a [ i ] != i + 1 and flag : r = i + 1 if ( a [ r - 1 ] - a [ r - 2 ] > 0 ): isTrue = True break for print ( ( not isTrue ) ? l + " " + r : "0" + " " + "0" )
+

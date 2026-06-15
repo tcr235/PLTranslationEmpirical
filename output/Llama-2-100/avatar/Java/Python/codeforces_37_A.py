@@ -1,0 +1,2 @@
+def codeforces_37_A (): # n = int (input()) map = {} for i in range (n): val = int (input()) map [val] = map.get (val, 0) + 1 max = float (-1) for entry in map.items (): value = entry [1] max = max (max, value) print (max + " " + len (map)) class FastScanner: def __init__ (self): self.br = input () def next (self): try: return self.br.readline ().strip () except: return None def nextInt (self): return int (self.next ()) def nextLong (self): return long (self.next ()) def nextDouble (self): return float (self.next ()) def nextLine (self): return self.br.readline ().strip ()
+

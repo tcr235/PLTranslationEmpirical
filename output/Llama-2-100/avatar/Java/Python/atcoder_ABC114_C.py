@@ -1,0 +1,2 @@
+def atcoder_ABC114_C (): # scanner = input () N = int ( scanner.next ()) c = 0 i = 357 while i <= N: s = str (i) if s.count ( "3") > 0 and s.count ( "5") > 0 and s.count ( "7") > 0: c += 1 i = long (s) while i <= N: # s = str (i) if s.count ( "3") > 0 and s.count ( "5") > 0 and s.count ( "7") > 0: c += 1 break # scanner.next () # N = int (scanner.next ()) c = 0 i = 357 while i <= N: s = str (i) if s.count ( "3") > 0 and s.count ( "5") > 0 and s.count ( "7") > 0: c += 1 i = long (s)
+
