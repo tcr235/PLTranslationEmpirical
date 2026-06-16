@@ -1,0 +1,42 @@
+version: '3.8'
+
+services:
+  evaluator:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: pl_translation_evaluator
+    volumes:
+      - .:/app
+      - ${PWD}/dataset_reduzido:/app/src/test/dataset
+    # Executa todos os testes sequencialmente salvando na pasta mapeada local
+    command: >
+      bash -c "
+      echo '=== INICIANDO AVALIAÇÃO DE TESTES ===' &&
+      
+      echo '1/4: Avatar (Python -> Java) com LLaMa' &&
+      bash scripts/test_avatar.sh Python Java LLaMa fix_reports 1 &&
+      
+      echo '2/4: CodeNet (Python -> Java) com LLaMa' &&
+      bash scripts/test_codenet.sh Python Java LLaMa fix_reports 1 &&
+      
+      echo '3/4: Avatar (Java -> Python) com LLaMa' &&
+      bash scripts/test_avatar.sh Java Python LLaMa fix_reports 1 &&
+      
+      echo '4/4: CodeNet (Java -> Python) com LLaMa' &&
+      bash scripts/test_codenet.sh Java Python LLaMa fix_reports 1 &&
+
+      echo '5/8: Avatar (Python -> Java) com Qwen' &&
+      bash scripts/test_avatar.sh Python Java Qwen fix_reports 1 &&
+      
+      echo '6/8: CodeNet (Python -> Java) com Qwen' &&
+      bash scripts/test_codenet.sh Python Java Qwen fix_reports 1 &&
+      
+      echo '7/8: Avatar (Java -> Python) com Qwen' &&
+      bash scripts/test_avatar.sh Java Python Qwen fix_reports 1 &&
+      
+      echo '8/8: CodeNet (Java -> Python) com Qwen' &&
+      bash scripts/test_codenet.sh Java Python Qwen fix_reports 1 &&
+      
+      echo '=== TESTES CONCLUÍDOS COM SUCESSO ==='
+      "
